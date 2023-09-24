@@ -119,9 +119,30 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   display:inline-block;
-
+ 
+}
+.logo-list{
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  
   
 }
+.logo-icons{
+    
+    
+    width: calc((100% - 64px) / 4);
+    border: 4px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: var(--cloud-text-color);
+    
+}
+
 .logo-part {
   color: var(--title-text-color);
 }
@@ -316,11 +337,33 @@ body {
   
 }
 .item-inner {
-    padding: 32px 0px;
+  display:flex;  
+  padding: 32px 0px;
+    justify-content: center;
     align-items: center;
     margin-bottom: 32px;
-}
+    flex-direction: column;
 
+    
+}
+.inner-social{
+  
+  
+  
+  background-color: var(--accent-text-color);
+  fill: var(--white-text-color);
+ 
+}
+.item-inner-icons{
+  display: flex;
+  gap: 24px;
+  
+}
+.fon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
