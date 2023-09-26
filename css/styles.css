@@ -207,9 +207,27 @@ body {
 .site-nav {
   display: flex;
   gap: 40px;
+}
 
 
+.current {
+  color: var(--title-text-color);
+}
+.current:hover,
+.current:focus {
+  color: var(--hover-text-color);
 
+}
+.current:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  width: 100%;
+  background-color: var(--hover-text-color);
+  border-radius: 2px;
+  z-index: 1;
 }
 
 .item {
