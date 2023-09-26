@@ -212,6 +212,7 @@ body {
 
 .current {
   color: var(--title-text-color);
+  position: relative;
 }
 .current:hover,
 .current:focus {
@@ -254,6 +255,7 @@ body {
 
 .link {
   text-decoration: none;
+  
 }
 
 /* Address */
