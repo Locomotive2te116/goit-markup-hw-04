@@ -441,13 +441,13 @@ body {
     0px 2px 1px rgba(46, 47, 66, 0.08);
 
 }
-.soc-list-team{
+/*.soc-list-team{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
   
-}
+}*/
 .soc-list-team-link {
   list-style: none;
   display: flex;
