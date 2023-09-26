@@ -213,7 +213,7 @@ body {
 
 
 .current {
-  color: var(--title-text-color);
+  color: var(--hover-text-color);
   position: relative;
 }
 .current:hover,
