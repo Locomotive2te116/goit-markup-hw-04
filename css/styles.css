@@ -212,14 +212,12 @@ body {
 }
 
 
-.current {
-  color: var(--hover-text-color);
-  position: relative;
-}
+
+
 .current:hover,
 .current:focus {
   color: var(--hover-text-color);
-
+  
 }
 .current:after {
   position: absolute;
@@ -231,7 +229,9 @@ body {
   background-color: var(--hover-text-color);
   border-radius: 2px;
   z-index: 1;
+  color: var(--hover-text-color);
 }
+
 
 .item {
   padding-top: 24px;
@@ -241,25 +241,31 @@ body {
 
 .site-nav .link {
   line-height: 1.5;
-  color: var(--title-text-color);
+  
+  color: var(--title-text-color); 
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
-
+  
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--hover-text-color);
-
+ color: var(--hover-text-color);
 }
+
+
 
 .link {
   text-decoration: none;
   color: var(--hover-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 
+}
+.site-nav .current {
+  color: var(--hover-text-color);
+  position: relative;
 }
 
 /* Address */
@@ -492,9 +498,7 @@ body {
     margin-bottom: 72px;
     line-height: 1.11;
 }
-.customer-icon {
-  fill: currentColor;
-}
+
 
 .customers-list {
     
@@ -531,7 +535,7 @@ body {
 }
 .customer-icon {
   
-  fill:var(--LIGHT-SLATE);
+fill: currentColor;
  min-width: 104px;
  min-height: 56px;
 }
@@ -587,9 +591,12 @@ body {
  .card-link:hover .overlay-text, 
  .card-link:focus .overlay-text {
     transform: translateY(0%);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
+ .card-link:hover,
+ .card-link:focus  {
+             
+              box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+            }
 
 .product-card {
 
