@@ -774,18 +774,18 @@ fill: currentColor;
   }
   .modal-btn {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: black;
+    fill: var(--accent-bg-color);
     
   }
 .modal-close:focus,
 .modal-close:hover {
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /*background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
   background-color: var(--hover-bg-color);
   border: none;
-  border-color: #404bbf;
+  /*border-color: #404bbf;*/
 }
 
 .button:hover .modal-btn,
 .button:focus .modal-btn {
-    fill: #ffffff;
+    fill: var(--white-text-color);
 }
