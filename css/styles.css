@@ -784,7 +784,7 @@ fill: currentColor;
   border: none;
   border-color: #404bbf;
 }
-/*button:hover .modal-btn,
-button:focus .modal-btn {
+.button:hover .modal-btn,
+.button:focus .modal-btn {
   fill: #ffffff;
-}*/
+}
