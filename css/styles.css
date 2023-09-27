@@ -787,5 +787,5 @@ fill: currentColor;
 
 .button:hover .modal-btn,
 .button:focus .modal-btn {
-  fill: #ffffff;
+    fill: #ffffff;
 }
