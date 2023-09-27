@@ -156,7 +156,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -348,7 +348,7 @@ body {
 .button.primary:focus {
   background-color: var(--hover-bg-color);
   border: 1px solid var(--CORNFLOWER, #E7E9FC);
-  border: 1px solid transparent;
+  /*border: 1px solid transparent;*/
 }
 
 .button.secondary {
@@ -705,7 +705,7 @@ fill: currentColor;
 
 
   .soc-link {
-    fill: var(-cloud-text-color) ;
+    fill: var(--cloud-text-color) ;
   }
 
 .footer-customer-link {
